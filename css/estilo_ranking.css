@@ -20,7 +20,7 @@ body{
 
 .contador1{
     width: 1200px;
-    height: 140px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -50,7 +50,6 @@ body{
 .titulo{
     font-size: 33px;
     text-align: center;
-    padding-bottom: 95px;
 }
 
 .bloco{
@@ -72,11 +71,11 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .icones{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     max-width: 90px;
     max-height: 90px;
     width: auto;
@@ -108,16 +107,54 @@ body{
     margin-right: 100px;
 }
 
-.titulo3{
-    font-size: 33px;
+.titulo3 p{
     text-align: center;
+}
+
+.titulo3 p a{
+    font-size: 33px;
+    text-decoration: none;
     color:#3B7302;
-    margin-top: 50px;
+}
+
+.titulo3 p a:hover{
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
 }
 
 .titulo4{
-    font-size: 33px;
+    font-size: 30px;
     text-align: center;
-    color:#3B7302;
+    color: #3B7302;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.titulo5{
+    font-size: 30px;
+    text-align: center;
+    color: black;
     margin-top: 100px;
+}
+
+.texto{
+    display: flex;
+   margin-top: 30px;
+}
+
+.texto1{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.icone1 a {
+    font-size: 30px;
+    text-decoration: none;
+    color:#3B7302;
+    padding: 10px;
+}
+
+.icone1 a:hover {
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
 }
