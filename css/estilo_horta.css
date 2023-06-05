@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_horta{
+    width: 700px;
+}
+
+.titulo_horta h1{
+    color:#3B7302;
+    text-align: center;
+}
+
+.titulo_horta p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.container1{
+    width: 1200px;
+    background-image: linear-gradient(
+        to bottom, rgba(192, 252, 183, 0.61), white);
+        padding: 25px;
+}
+
+.container2 , .container3, .container4 , .container5 , .container6 , .container7{
+    padding:25px;
+}
+
+.container2 , .container4 , .container6 , .container8{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container8{
+    background-image: linear-gradient(
+        to top, rgba(192, 252, 183, 0.61), white);
+        padding: 25px;
+}
+
+.titulo_passoapasso{
+    font-size: 20px;
+    color:#3B7302;
+    text-align: center;
+}
+
+.passoapasso , .passoapasso2 , .passoapasso3 , .passoapasso4 , .passoapasso5 , .passoapasso6 , .passoapasso7 , .passoapasso8{
+    display:flex;
+    align-items: center;
+    
+}
+
+.passoapasso , .passoapasso3 , .passoapasso5 , .passoapasso7{
+   padding-left: 70px; 
+}
+
+.passoapasso2 , .passoapasso4 , .passoapasso6 , .passoapasso8{
+    padding-right: 70px;
+}
+
+.icone1 , .icone2 , .icone3 , .icone4 , .icone5 , .icone6 , .icone7 , .icone8{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.icone1 , .icone3 , .icone5 , .icone7{
+    margin-right: 25px;
+}
+
+.icone2 , .icone4 , .icone6 , .icone8{
+    margin-left: 25px;
+}
+.imagem_passo1 , .imagem_passo2 , .imagem_passo3 , .imagem_passo4 , .imagem_passo5 , .imagem_passo6 , .imagem_passo7 , .imagem_passo8{
+    width: 250px;
+    height: 280px;
+    
+}
+
+.texto1 , .texto2 , .texto3 , .texto4 , .texto5 , .texto6 , .texto7 , .texto8 {
+    width: 300px;
+    font-size: 25px;
+}
+
+.texto1 , .texto3 , .texto5 , .texto7{
+    margin-left: 25px;
+}
+
+.texto2 , .texto4 , .texto6 , .texto8{
+    margin-right: 25px;
+    text-align: right;
+}
+
+.lembre-se{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+}
+
