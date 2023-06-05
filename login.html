@@ -6,23 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+     
     <header>
-        <nav class="menu">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logos/Logo_-_FeedTheFuture-removebg.png" alt="Logo" width="100" height="100">
-                </a>
+            <nav class="menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logos/Logo_-_FeedTheFuture-removebg.png" alt="Logo" width="100" height="100">
+                    </a>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="horta.html">Horta</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="ongs.html">ONGs</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container_login"> 
+        <h1 class="login">login</h1>
+
+        <div class="campos_login">
+                <div class="login_ong">
+                <p class="nome_clie">ONG's</p>
+                <img class="icone_login" src="img/Icones/icone - doação.png" alt="Icone referente a ONG's">
+                <form name="frmlogin_ong" action="login.html" method="get">
+                    <input type="email" name="txtEmail_ong" id="txtEmail_ong" autocomplete="on" placeholder="E-mail" required>
+                    <br><br>
+                    <input type="password" name="pwdSenha_ong" id="pwdSenha_ong" placeholder="Senha" required>
+                    <br><br>
+                    <a href="pagina_ong.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+                </form>
+                <div class="nao_cadastro">
+                    <p class="n_cadastro">Não tem cadastro?</p>
+                    <p class="cadastre"><a href="cadastro_ong.html">Cadastre-se</a></p>
+                </div>
+                </div>
+                <div class="login_empresa">
+                <p class="nome_clie">Empresas</p>
+                <img class="icone_login" src="img/Icones/icone - vegetais.png" alt="Icone referente a empresas">
+                <form name="frmlogin_empresa" action="login.html" method="get">
+                    <input type="email" name="txtEmail_empresa" id="txtEmail_empresa" autocomplete="on" placeholder="E-mail" required>
+                    <br><br>
+                    <input type="password" name="pwdSenha_empresa" id="pwdSenha_empresa" placeholder="Senha" required>
+                    <br><br>
+                    <a href="pagina_empresa.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+                </form>
+                <div class="nao_cadastro">
+                    <p class="n_cadastro">Não tem cadastro?</p>
+                    <p class="cadastre"><a href="cadastro_empresa.html">Cadastre-se</a></p>
+                </div>
+                </div>
+                <div class="login_pessoa">
+                <p class="nome_clie">Pessoa Física</p>
+                <img class="icone_login" src="img/Icones/icone - doações.png" alt="Icone referente a Pessoa fisica">
+                <form name="frmlogin_pessoa" action="login.html" method="get">
+                    <input type="email" name="txtEmail_pessoa" id="txtEmail_pessoa" autocomplete="on" placeholder="E-mail" required>
+                    <br><br>
+                    <input type="password" name="pwdSenha_pessoa" id="pwdSenha_pessoa" placeholder="Senha" required>
+                    <br><br>
+                    <a href="pagina_pessoa.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+                </form>
+                <div class="nao_cadastro">
+                    <p class="n_cadastro">Não tem cadastro?</p>
+                    <p class="cadastre"><a href="cadastro_pessoa.html">Cadastre-se</a></p>
+                </div>
+                </div>
+          </div>
+
+                
             </div>
-            <ul class="menu-list">
-                <li><a href="horta.html">Horta</a></li>
-                <li><a href="noticias.html">Notícias</a></li>
-                <li><a href="ranking.html">Ranking</a></li>
-                <li><a href="ongs.html">ONGs</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+
+
+
+
+
+    </div> 
+        <footer>
+            <div class="rodape">
+                <div class="contato">
+                    <div class="tituloContato">contato</div>
+                    <div class="end">
+                            <img class="icone_localizacao" src="img/Icones/icon - localizacao.png" alt="Icone localização">
+                        <div class="endereco"><p>AVENIDA LINS DE VASCONCELOS - 157</p></div>
+                    </div>
+                    <div class="tel">
+                        <img class="icone_tel" src="img/Icones/icon - telefone.png" alt="Icone telefone">
+                        <div class="telefone"><p>(11) 91234-5678</p></div>
+                    </div>
+                    <div class="email">
+                        <img class="icone_email" src="img/Icones/icon  - email.png" alt="Icone email">
+                        <div class="e-mail"><p>Feedthefuture@GMAIL.COM</p></div>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="tituloRedes">redes</div>
+                    <div class="icones_redes">
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon - twitter.png" alt="Icone Twitter"></a>
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon - facebook.png" alt="Icone Facebook"></a>
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon- instagram.png" alt="Icone Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="desenvolvedores"><a href="desenvolvedores.html">Desenvolvedores</a></div>
+                <div class="copy">@copyright: ancient code</div>
+            </div>
+        </footer>  
+    
 </body>
 </html>

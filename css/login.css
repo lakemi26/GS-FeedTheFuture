@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_login{
+    width: 1200px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+}
+
+.login{
+    color: #3B7302;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.campos_login{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login_ong,
+.login_empresa,
+.login_pessoa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+.icone_login{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.icone_go{
+    width: 80px;
+    height: 80px;
+}
+
+.nome_clie{
+    color: #3B7302;
+    font-size: 25px;
+}
+
+.n_cadastro{
+    color: #3B7302;
+}
+
+.cadastre a{
+    text-decoration: none;
+    color:#3B7302;
+}
+
+.cadastre a:hover{
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
+}
+
+.login_empresa input[type="email"],
+.login_empresa input[type="password"],
+.login_pessoa input[type="email"],
+.login_pessoa input[type="password"],
+.login_ong input[type="email"],
+.login_ong input[type="password"]{
+    border: 1px solid #3B7302;
+}
+
+.login_empresa input[type="email"]::placeholder,
+.login_empresa input[type="password"]::placeholder,
+.login_pessoa input[type="email"]::placeholder,
+.login_pessoa input[type="password"]::placeholder,
+.login_ong input[type="email"]::placeholder,
+.login_ong input[type="password"]::placeholder{
+    color:#3B7302;
+}
+
+footer{
+    width:1200px;
+}
