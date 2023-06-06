@@ -494,6 +494,7 @@ main{
 
     @media (max-width:1199px) and (min-width:768px) {
         
+        /*menu*/
         .container {
             width: 768px;
           }
@@ -502,7 +503,7 @@ main{
             width: 768px;
             height: 100px;
         }
-
+        /*final menu*/
         .sobre_nos{
             width: 700px;
             height: 570px;
@@ -577,14 +578,258 @@ main{
             margin-left: -25px;
             margin-top: 30px;
         }
+
+        .titulo_colaboradores{
+            width: 768px;
+        }
+
+        .logo_colaboradores{
+            width:768px;
+        }
+
+        /*rodapé*/
+
+        .rodape{
+            width: 768px;
+        }
+
+        .contato{
+            margin-right: 100px;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width:787px) and (min-width:400px){
+
+        /*menu*/
+        .container {
+            width: 400px;
+          }
+
+        .menu {
+            width: 400px;
+            height: 100px;
+        }
         
+        .menu-list li a {
+            font-size: 15px;
+        }
+        /*final menu*/
+
+        .sobre_nos{
+            width: 400px;
+            height: 570px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img_sobrenos{
+            width: 380px;
+            height: 380px;
+        }  
+
+        .texto_sobrenos{
+            font-size: 20px;
+            width: 380px;
+        }
+
+        .contador{
+            width: 400px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contador_ong{
+            font-size: 20px;
+            margin-left: 62px;
         
+        }
+        
+        .contador_doadores{
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .numeros_contador{
+            width: 40px;
+            height: 60px;
+            font-size:30px;
+            margin:5px;
+        }
+
+        .img_broto{
+            width: 0px;
+            height: 0px;
+            margin-top: 50px;
+        }
+
+        .titulo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            
+        }
+        .titulo_noticia{
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .noticias{
+            width: 400px;
+        }
+
+        .mold_noticias{
+            width: 200px;
+            height: 280px;
+            padding-top:30px;
+            padding-bottom: 20px;
+        }
+
+        .img_index_agrosust , .img_index_Ia , .img_index_ModelosCultivo{
+            width: 150px;
+            height: 100px;
+            margin-left: -25px;
+            margin-top: 30px;
+        }
+
+        .titulo_colaboradores{
+            width: 768px;
+        }
+
+        .logo_colaboradores{
+            width:768px;
+        }
+
+        .ongs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .moldura{
+            width: 260px;
+            height: 300px;
+        }
+
+        .img_broto{
+            width: 400px;
+            height: auto;
+            margin-top: 50px;
+            background-color: #f2f2f2;
+        }
+
+        .branco{
+            width: auto;
+            height: auto;
+        }
+
+        .noticias{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin-top:20px;
+        }
+
+        .mold_noticias{
+            width: 260px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-evenly;
+            border-top: 15px;
+        }
+
+        .img_index_agrosust, .img_index_Ia, .img_index_ModelosCultivo{
+            margin-left: 4px;
+        }
+
+        .mold_noticias{
+            margin-bottom: 10px;
+        }
+
+        .colaboradores{
+            width: 400px;
+        }
+
+        .titulo_colaboradores{
+            width: 400px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+
+        .logo_colaboradores{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+        
+        .linha1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+
+        .linha2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
 
 
+        /*rodapé*/
+
+        .rodape{
+            width: 768px;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        .contato{
+            margin-right: 100px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+        }
+
+        .redes{
+            margin-left: 94px;
+            margin-bottom: 17px;
+        }
         
+        .copyright{
+            font-size: 15px;
+        }
         
-        
-        
-        
-    
-}
+        .desenvolvedores{
+            font-size: 15px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
