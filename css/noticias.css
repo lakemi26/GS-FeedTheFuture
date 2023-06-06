@@ -67,11 +67,13 @@ body{
 .iag a{
     text-decoration: none;
     color: #3B7302;
+    font-weight: bold;
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
 }
 
 .iag a:hover{
-    border-bottom: 1px solid #3B7302;
-    padding-bottom: 1px;
+    color:#078365;
 }
 
 .imagens_ia{
@@ -85,4 +87,9 @@ body{
     width: 200px;
     height: 200px;
     border: 1px solid #3B7302;
+}
+
+footer{
+    width: 1200px;
+    margin-top: -21px;
 }

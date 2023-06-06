@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+}
+
+main p{
+    font-size: 18px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+h1 , h2{
+    color:#3B7302;
+}
+
+.icone_num1 , .icone_num2 , .icone_num3 ,.icone_num4 , .icone_num5 {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.topico{
+    display: flex;
+    text-align: center;
+    align-items:  center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.topico p{
+    margin-left: 10px;
+}
+
+.topicos{
+    width: 1200px;
+    align-items: flex-start;
+}
+
+.texto_final{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.verdinho{
+    color:#3B7302;
+}
+
+.verdinho a{
+    text-decoration: none;
+    color:#3B7302;
+}
+
+.verdinho a:hover{
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
+}
