@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_empresa{
+    width: 700px;
+}
+
+.titulo_empresa h1{
+    color: #3b7302;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bloco{
+    width: 1200px;
+    background-image: linear-gradient(
+        to bottom, rgba(192, 252, 183, 0.61), white);
+}
+
+.medalha{
+    display: flex;
+}
+
+.texto{
+    display: flex;
+}
+
+.texto1{
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.texto2 p a{
+    width: 49px;
+    height: 82px;
+    border-radius: 30px;
+    font-size:21px;
+    border: 1px solid #3B7302;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-left: 454px;
+    color: #3B7302;
+}
+
+.texto3 {
+    font-size: 28px;
+    margin-left: 545px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.texto4 {
+    font-size: 28px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.texto5 p a{
+    width: 49px;
+    height: 82px;
+    border-radius: 30px;
+    font-size:21px;
+    border: 1px solid #3B7302;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-left: 545px;
+    color: #3B7302;
+}
+
+.icone{
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    margin-left: 270px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.icone1{
+    margin-bottom: 20px;
+    max-width: 90px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+    margin-left: 170px;
+}
+
+.bloco0{
+    width: 1200px;
+    background-image: linear-gradient(
+        to top, rgba(192, 252, 183, 0.61), white);
+        padding-bottom: 25px;
+}
+
+.titulo_empresa2{
+    font-size: 20px;
+    color:#3B7302;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
+.bloco p {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 2px;
+    margin-bottom: 15px
+}
+
+.texto6 p a{
+    width: 49px;
+    height: 82px;
+    border-radius: 30px;
+    font-size:21px;
+    border: 1px solid #3B7302;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-left: 615px;
+    color: #3B7302;
+}
+
+.estrela{
+    display: flex;
+    margin-top: 30px;
+}
+
+.estrela1{
+    font-size: 35px;
+    margin-left: 10px;
+    color: #3B7302;
+}
