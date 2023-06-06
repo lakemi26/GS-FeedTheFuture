@@ -19,6 +19,13 @@ body{
         to bottom, rgba(192, 252, 183, 0.61), white);
 }
 
+.bloco1{
+    border-top: 2px solid #3B7302;
+    width: 1200px;
+    background-image: linear-gradient(
+        to bottom, rgba(192, 252, 183, 0.61), white);
+}
+
 .medalha{
     display: flex;
 }
@@ -110,6 +117,13 @@ body{
 }
 
 .bloco p {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 2px;
+    margin-bottom: 15px
+}
+
+.bloco1 p {
     font-size: 25px;
     margin-left: 150px;
     margin-top: 2px;
