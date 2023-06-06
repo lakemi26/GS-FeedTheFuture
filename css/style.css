@@ -55,6 +55,8 @@ body{
     padding-bottom: 1px;
 }
 
+/*final do css - nav */
+
 .container{
     background-color: #ffffff;
 }
@@ -66,8 +68,6 @@ body{
     margin-top: 50px;
     background-color: #ffffff;
 }
-/*final do css - nav */
-
 
 main{
     display: flex;
@@ -488,4 +488,103 @@ main{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/* responsivo min-width 768px*/
+
+    @media (max-width:1199px) and (min-width:768px) {
+        
+        .container {
+            width: 768px;
+          }
+
+        .menu {
+            width: 768px;
+            height: 100px;
+        }
+
+        .sobre_nos{
+            width: 700px;
+            height: 570px;
+        }
+
+        .menu-list li a {
+            font-size: 20px;
+        }
+
+        .img_sobrenos{
+            width: 500px;
+            height: 500px;
+        }  
+
+        .texto_sobrenos{
+            font-size: 29px;
+        }
+
+        .contador{
+            width: 768px;
+            height: 150px; 
+        }
+
+        .contador_ong{
+            font-size: 30px;
+        
+        }
+        
+        .contador_doadores{
+            font-size: 30px;
+        }
+
+        .numeros_contador{
+            width: 40px;
+            height: 60px;
+            font-size:30px;
+            margin:5px;
+        }
+
+        .img_broto{
+            width: 768px;
+            height: 500px;
+            margin-top: 50px;
+        }
+
+        .titulo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 768px;
+            
+        }
+        .titulo_noticia{
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .noticias{
+            width: 768px;
+        }
+
+        .mold_noticias{
+            width: 200px;
+            height: 280px;
+            padding-top:30px;
+            padding-bottom: 20px;
+        }
+
+        .img_index_agrosust , .img_index_Ia , .img_index_ModelosCultivo{
+            width: 150px;
+            height: 100px;
+            margin-left: -25px;
+            margin-top: 30px;
+        }
+        
+        
+
+
+        
+        
+        
+        
+        
+    
 }
