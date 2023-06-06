@@ -57,3 +57,19 @@ h1 , h2{
     border-bottom: 1px solid #3B7302;
     padding-bottom: 1px;
 }
+
+@media (max-width:1199px) and (min-width:768px) {
+
+    .topicos{
+        width: 768px;
+    }
+
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    .topicos{
+        width: 400px;
+    }
+
+}
