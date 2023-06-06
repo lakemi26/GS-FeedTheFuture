@@ -188,3 +188,131 @@ body{
     align-self: flex-end;
     float:right;
 }
+
+.titulo5 a{
+    text-decoration: none;
+    color:#3B7302;
+}
+
+.titulo5 a:hover {
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
+}
+
+
+@media (max-width:1199px) and (min-width:768px) {
+
+    .container{
+        width: 768px;
+    }
+
+    .contador1{
+        width: 768px;
+    }
+
+    .numeros_contador2{
+        width: 41px;
+        height: 70px;
+    }
+
+    .bloco1 {
+        width: 768px;
+    }
+
+    .bloco1 {
+        width: 768px;
+    }
+
+    .certificado{
+        width: 768px;
+    }
+
+    .icone0 {
+        width: 768px;
+    }
+
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    .container{
+        width: 400;
+    }
+
+    .contador1{
+        width: 400px;
+    }
+
+    .numeros_contador2{
+        width: 41px;
+        height: 70px;
+    }
+
+    .bloco1 {
+        width: 400px;
+    }
+
+    .bloco1 {
+        width: 400px;
+    }
+
+    .certificado{
+        width: 400px;
+    }
+
+    .icone0 {
+        width: 400px;
+    }
+
+    .bloco1 p {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titulo_ranking p {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .titulo4 {
+        font-size: 20px;
+    }
+
+    .icones {
+        margin-bottom: 20px;
+        max-width: 70px;
+        max-height: 70px;
+        width: auto;
+        height: auto;
+        margin:0px;
+    }
+
+    .texto1 {
+        font-size: 20px;
+    }
+
+    .icone_decorativo {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    .titulo2 {
+        font-size: 20px;
+    }
+
+    .titulo3 p a {
+        font-size: 20px;
+    }
+
+    .titulo5 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+}
