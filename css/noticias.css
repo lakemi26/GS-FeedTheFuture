@@ -2,3 +2,87 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.icone_decorativo{
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    float:right;
+}
+
+.iconezinho{
+    height: 50px;
+    margin-bottom: -2px;
+}
+
+.titulo_noticias , .tituloNoticias {
+    text-align: center;
+    color:#3B7302;
+
+}
+
+.noticia1 , .noticia2 , .noticia3{
+    border-top: 2px solid #3B7302;
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+    padding: 25px;
+}
+
+.icone_num1 , .icone_num2 , .icone_num3 ,.icone_num4 , .icone_num5 {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.topico{
+    display: flex;
+    text-align: center;
+    align-items:  center;
+}
+
+.noticia1 p , .noticia2 p , .noticia3 p{
+    line-height: 1.2;
+    font-size: 19px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagens_ModelosDeCultivo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.img_modelosDeCultivo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3B7302;
+}
+
+.legenda{
+    color:#3B7302;
+    width:200px;
+    text-align: center;
+}
+
+.iag a{
+    text-decoration: none;
+    color: #3B7302;
+}
+
+.iag a:hover{
+    border-bottom: 1px solid #3B7302;
+    padding-bottom: 1px;
+}
+
+.imagens_ia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.representacao_ia{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3B7302;
+}

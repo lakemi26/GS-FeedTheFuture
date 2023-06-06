@@ -470,8 +470,15 @@ main{
     padding-bottom: 1px;
 }
 
-
 .copy{
     margin-right:20px;
     margin-top: 10px;
+}
+ /* css página medalha */
+.medalha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

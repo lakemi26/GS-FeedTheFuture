@@ -36,7 +36,6 @@ body{
 .texto2 p a{
     width: 49px;
     height: 82px;
-    border-radius: 30px;
     font-size:21px;
     border: 1px solid #3B7302;
     margin:5px;
@@ -65,7 +64,6 @@ body{
 .texto5 p a{
     width: 49px;
     height: 82px;
-    border-radius: 30px;
     font-size:21px;
     border: 1px solid #3B7302;
     margin:5px;
@@ -121,7 +119,6 @@ body{
 .texto6 p a{
     width: 49px;
     height: 82px;
-    border-radius: 30px;
     font-size:21px;
     border: 1px solid #3B7302;
     margin:5px;
