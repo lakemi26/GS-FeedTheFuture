@@ -75,3 +75,56 @@ body{
     border-bottom: 1px solid black;
     padding-bottom: 1px;
 }
+
+@media (max-width:1199px) and (min-width:768px) {
+
+    .container1{
+        width: 700px;
+        padding: 34px;
+    }
+
+    .ong1{
+        margin-left: 50px;
+    }
+
+    .contato1{
+        margin-left: 40px;
+        width: 700px;
+    }
+
+
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    
+    .container1{
+        width: 400px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ong1{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .contato1{
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    .texto1 h2 {
+        margin-left: 23px;
+
+    }
+
+    .ong_list{
+        margin-left: 0px;
+    }
+
+
+}
