@@ -58,14 +58,30 @@ body{
         to bottom, rgba(192, 252, 183, 0.61), white);
 }
 
+.bloco1{
+    border-top: 4px solid #3B7302;
+    width: 1200px;
+    background-image: linear-gradient(
+        to bottom, rgba(192, 252, 183, 0.61), white);
+}
+
 .titulo_ranking2{
     font-size: 25px;
     color:#3B7302;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .bloco p{
+    font-size: 33px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.bloco1 p{
     font-size: 33px;
     text-align: center;
     margin-left: 100px;
@@ -96,10 +112,6 @@ body{
         padding-bottom: 25px;
 }
 
-.espaco p{
-    height: 100px;
-}
-
 .titulo2{
     font-size: 33px;
     text-align: center;
@@ -127,7 +139,7 @@ body{
     text-align: center;
     color: #3B7302;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .titulo5{
@@ -139,7 +151,7 @@ body{
 
 .texto{
     display: flex;
-   margin-top: 30px;
+    margin-top: 30px;
 }
 
 .texto1{
@@ -157,4 +169,22 @@ body{
 .icone1 a:hover {
     border-bottom: 1px solid #3B7302;
     padding-bottom: 1px;
+}
+
+.iconezinho{
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+.iconezinho2{
+    height: 50px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.icone_decorativo{
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    float:right;
 }
