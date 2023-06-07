@@ -1,0 +1,62 @@
+.desenvolvedores{
+    display: flex;
+    flex-direction: column;
+}
+
+.isabelli , .juliaF , .nery , .larissa , .vinicius{
+    width:200px;
+}
+
+.moldura_isa , .moldura_ju , .moldura_nery , .moldura_lari , .moldura_vini{
+    width:200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.nome_isa a , .nome_ju a, .nome_nery a , .nome_lari a , .nome_vini a{
+    color: #3B7302; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.linha1 , .linha2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+
+}
+
+
+.nome_isa a:hover , .nome_ju a:hover , .nome_nery a:hover , .nome_lari a:hover , .nome_vini a:hover{ 
+    color: #13caac;
+    text-decoration: underline;
+    border-bottom:none;
+}
+
+
+@media (max-width:1199px) and (min-width:768px) {
+    .desenvolvedores{
+        width: 768px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linha1 , .linha2{
+        display:flex;
+        justify-content: center;
+    }
+
+    .isabelli , .juliaF , .nery , .larissa , .vinicius{
+        padding: 20px;
+    }
+
+    .copy{
+        width: 417px;
+    }
+
+    footer .desenvolvedores{
+        align-items: self-start;
+    }
+}
