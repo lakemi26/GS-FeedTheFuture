@@ -194,6 +194,22 @@ footer{
     .container_form{
         width: 400px;
     }
+
+    .cadastro_pessoas {
+        color:#3B7302;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 25px;
+        font-family: 'Julius Sans One';
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    
+    .icone_doacao_alimento{
+        width: 50px;
+        height: 50px;
+        margin-left: 585px;
+    }
     
     .nome_pessoa input[type="text"],
     .endereco_pessoa input[type="text"],
@@ -217,8 +233,8 @@ footer{
         }
         
         .icone_go {
-            width: 60px;
-            height: 60px;
+            width: 30px;
+            height: 30px;
         }
     
         .espaco_icone_go {
@@ -238,7 +254,7 @@ footer{
             position: absolute;
             width: 96px;
             height: 82px;
-            margin-left: 349px;
+            margin-left: 337px;
             margin-top: 9px;
         }
         footer{

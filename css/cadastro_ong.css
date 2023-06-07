@@ -141,7 +141,7 @@ footer{
     .icone_doacao{
         width: 80px;
         height: 80px;
-        margin-left: 489px;
+        margin-left: 354px;
     }
     
     form{
@@ -282,8 +282,7 @@ footer{
     .url_ong input[type="url"] {
         width: 350px;
         }  
-    }
-    
+
     .nome_pessoa input[type="text"]::placeholder,
     .endereco_pessoa input[type="text"]::placeholder,
     .cep_pessoa input[type="number"]::placeholder,
@@ -351,4 +350,6 @@ footer{
         margin-left: 768px;
         margin-top: 80px;
     }
+
+}
     
