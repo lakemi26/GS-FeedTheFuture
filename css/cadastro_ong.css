@@ -1,7 +1,10 @@
 body{
-    background-color:  #ffffff;
     display: flex;
     flex-direction:column;
+}
+
+.container_cadastro_ong{
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
 }
 
 .cadastro_ongs {
@@ -16,16 +19,10 @@ body{
 }
 
 .icone_doacao{
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin-top: -15px;
     margin-left:458px;
-}
-
-.container_cadastro_ongs{
-    width: 1200px;
-    height: 100%;
-    background-color: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
 }
 
 .formulario_cadastro{
@@ -43,42 +40,33 @@ form {
     height: 1px;
   }
 
-input[type="text"] {
-    color: #3B7302;
+.nome_ong input[type="text"],
+.endereco_ong input[type="text"],
+.cep_ong input[type="number"],
+.numero_ong input[type="number"],
+.complemento_ong input[type="text"],
+.cnpj_ong input[type="number"],
+.telefone_ong input[type="tel"],
+.email_ong input[type="email"], 
+.senha_ong input[type="password"],
+.url_ong input[type="url"] {
     width: 990px;
     font-size: 25px;
-    border-color: #3B7302;
+    border: 1px solid #3B7302;
     font-family: 'Julius Sans One';
 }
-input[type="number"] {
-    width: 990px;
-    font-size: 25px;
-    border-color: #3B7302;
-    font-family: 'Julius Sans One';
-}
-input[type="tel"] {
-    width: 990px;
-    font-size: 25px;
-    border-color: #3B7302;
-    font-family: 'Julius Sans One';
-}
-input[type="email"] {
-    width: 990px;
-    font-size: 25px;
-    border-color: #3B7302;
-    font-family: 'Julius Sans One';
-}
-input[type="password"] {
-    width: 990px;
-    font-size: 25px;
-    border-color: #3B7302;
-    font-family: 'Julius Sans One';
-}
-input[type="url"] {
-    width: 990px;
-    font-size: 25px;
-    border-color: #3B7302;
-    font-family: 'Julius Sans One';
+
+.nome_ong input[type="text"]::placeholder,
+.endereco_ong input[type="text"]::placeholder,
+.cep_ong input[type="number"]::placeholder,
+.numero_ong input[type="number"]::placeholder,
+.complemento_ong input[type="text"]::placeholder,
+.cnpj_ong input[type="number"]::placeholder,
+.telefone_ong input[type="tel"]::placeholder,
+.email_ong input[type="email"]::placeholder,
+.senha_ong input[type="password"]::placeholder,
+.url_ong input[type="url"]::placeholder {
+    color:#3B7302;
 }
 
 .texto_enviofotos_ong{
@@ -102,39 +90,39 @@ input[type="url"] {
     position: absolute;
     width: 110px;
     height: 110px;
-    margin-top: 0px;
+    margin-top: -19px;
     margin-left:0px;
 }
 
 .checkbox_termos{
     position: absolute;
-    width: 616px;
-    height: 26px;
-    left: 122px;
-    top: 1250px;
+    width: 480px;
+    height: 35px;
+    left: 170px;
+    top: 1141px;
 }
 
 .checkbox_termos{
     font-family: 'Julius Sans One';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 26px;
     color: #000000;
 }
 
 input[type="file"] {
     position: absolute;
-    width: 1200px;
-    height: 378px;
-    left: 254px;
-    top: 1160px;
+    width: 296px;
+    height: 25px;
+    left: 287px;
+    top: 1082px;
     }
 
 .icone_go{
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 96px;
+    height: 82px;
     left: 1130px;
     top: 1218px;
 }
