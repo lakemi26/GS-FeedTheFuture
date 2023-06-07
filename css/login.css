@@ -95,12 +95,16 @@ footer{
     footer{
         width: 768px;
     }
+
+    .container_login{
+        width: 719px;
+    }
 }
 
 @media (max-width:787px) and (min-width:400px){
 
     .container_login{
-        width: 400px;
+        width: 349px;
         height: 100%;
     }
 
