@@ -18,7 +18,6 @@ body{
 }
 
 .container1{
-    width: 1200px;
     background-image: linear-gradient(
         to bottom, rgba(192, 252, 183, 0.61), white);
         padding: 25px;
@@ -97,5 +96,93 @@ body{
     font-size: 22px;
     text-align: center;
     padding: 15px;
+}
+
+@media (max-width:1199px) and (min-width:768px) {
+
+    .titulo_horta{
+        width: 600px;
+    }
+
+    .container2 , .container3, .container4 , .container5 , .container6 , .container7{
+        padding:0px;
+    }
+
+    .titulo_passoapasso{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    .titulo_horta{
+        width: 350px;
+    }
+    
+    .titulo_horta p{
+        font-size: 17px;
+    }
+    
+    .container2 , .container3, .container4 , .container5 , .container6 , .container7{
+        padding:25px;
+    }
+    
+    .titulo_passoapasso{
+        font-size: 16px;
+    }
+    
+    .passoapasso , .passoapasso3 , .passoapasso5 , .passoapasso7{
+       padding-left: 0px; 
+    }
+    
+    .passoapasso2 , .passoapasso4 , .passoapasso6 , .passoapasso8{
+        padding-right: 0px;
+    }
+    
+    .icone1 , .icone2 , .icone3 , .icone4 , .icone5 , .icone6 , .icone7 , .icone8{
+        max-width:30px;
+        max-height:30px;
+        width: auto;
+        height: auto;
+    }
+    
+    .icone1 , .icone3 , .icone5 , .icone7{
+        margin-right: 5px;
+    }
+    
+    .icone2 , .icone4 , .icone6 , .icone8{
+        margin-left: 5px;
+    }
+    .imagem_passo1 , .imagem_passo2 , .imagem_passo3 , .imagem_passo4 , .imagem_passo5 , .imagem_passo6 , .imagem_passo7 , .imagem_passo8{
+        width: 120px;
+        height: 120px;
+    }
+
+    .passoapasso{
+        width: 350px;
+        height: 190px;
+    }
+    
+    .texto1 , .texto2 , .texto3 , .texto4 , .texto5 , .texto6 , .texto7 , .texto8 {
+        width: auto;
+        font-size: 15px;
+    }
+    
+    .texto1 , .texto3 , .texto5 , .texto7{
+        margin-left: 25px;
+    }
+    
+    .texto2 , .texto4 , .texto6 , .texto8{
+        margin-right: 25px;
+        text-align: right;
+    }
+    
+    .lembre-se{
+        font-size: 17px;
+        text-align: center;
+        padding: 15px;
+    }
+
 }
 

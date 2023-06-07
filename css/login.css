@@ -85,3 +85,31 @@ body{
 footer{
     width:1200px;
 }
+
+@media (max-width:1199px) and (min-width:768px) {
+    .container_login{
+        width: 768px;
+        height: 100%;
+    }
+
+    footer{
+        width: 768px;
+    }
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    .container_login{
+        width: 400px;
+        height: 100%;
+    }
+
+    .campos_login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        width: 400px;
+    }
+}

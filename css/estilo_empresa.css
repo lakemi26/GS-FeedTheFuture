@@ -1,143 +1,159 @@
 body{
+    height: 100%;
+    margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #ffffff;
     flex-direction: column;
 }
 
-.titulo_empresa{
-    width: 700px;
-}
-
-.titulo_empresa h1{
-    color: #3b7302;
-    text-align: center;
-    font-size: 30px;
-}
-
-.bloco{
+.container-mae{
     width: 1200px;
-    background-image: linear-gradient(
-        to bottom, rgba(192, 252, 183, 0.61), white);
 }
 
-.medalha{
-    display: flex;
+.container1 , .container2{
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
 }
 
-.texto{
-    display: flex;
+.container2{
+    border-top:2px solid #3B7302;
 }
 
-.texto1{
-    font-size: 28px;
-    margin-left: 50px;
-    margin-top: 80px;
-}
-
-.texto2 p a{
-    width: 49px;
-    height: 82px;
-    font-size:21px;
-    border: 1px solid #3B7302;
-    margin:5px;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    margin-left: 454px;
+.titulo{
     color: #3B7302;
 }
 
-.texto3 {
-    font-size: 28px;
-    margin-left: 545px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.iconeMedalha{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
 }
 
-.texto4 {
-    font-size: 28px;
-    margin-left: 250px;
-    margin-top: 80px;
-}
-
-.texto5 p a{
-    width: 49px;
-    height: 82px;
-    font-size:21px;
-    border: 1px solid #3B7302;
-    margin:5px;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    margin-left: 545px;
-    color: #3B7302;
-}
-
-.icone{
-    max-width: 120px;
-    max-height: 120px;
-    width: auto;
-    height: auto;
-    margin-left: 270px;
-    padding-top: 80px;
-    padding-bottom: 25px;
-}
-
-.icone1{
-    margin-bottom: 20px;
-    max-width: 90px;
-    max-height: 90px;
-    width: auto;
-    height: auto;
-    margin-left: 170px;
-}
-
-.bloco0{
-    width: 1200px;
-    background-image: linear-gradient(
-        to top, rgba(192, 252, 183, 0.61), white);
-        padding-bottom: 25px;
-}
-
-.titulo_empresa2{
-    font-size: 20px;
-    color:#3B7302;
-    padding-top: 20px;
-    margin-left: 150px;
-}
-
-.bloco p {
+.botoes{
     font-size: 25px;
-    margin-left: 150px;
-    margin-top: 2px;
-    margin-bottom: 15px
 }
 
-.texto6 p a{
-    width: 49px;
-    height: 82px;
-    font-size:21px;
-    border: 1px solid #3B7302;
-    margin:5px;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    margin-left: 615px;
-    color: #3B7302;
-}
-
-.estrela{
+.caixinha1{
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    justify-content: space-evenly;
+    margin-left: 65px;
 }
 
-.estrela1{
-    font-size: 35px;
-    margin-left: 10px;
+.botao a{
+    text-decoration: none;
+    color:#3B7302;
+    border: 1px solid #3B7302;
+}
+
+.caixinha2{
+    text-align: center;
+    padding: 21px;
+}
+
+.caixinha2 p{
+    font-size:25px;
+}
+
+.botao a{
+    font-size: 25px;
+}
+
+.doacoes{
+    font-size: 25px;
+    padding-left: 114px;
+    padding-top: 25px;
+}
+
+.pontuacao h2{
+    font-size: 30px;
     color: #3B7302;
+}
+
+.estrelinha{
+    display:flex;
+}
+
+.iconeEstrela{
+    width: 100px;
+    height: 100px;
+}
+
+.pontos p{
+    font-size: 30px;
+    align-items: center;
+}
+
+.caixinha4{
+    padding-bottom: 20px;
+    padding-left: 114px;
+}
+
+footer{
+    width: 1200px;
+}
+
+@media (max-width:1199px) and (min-width:768px) {
+    .container-mae{
+        width: 768px;
+    }
+
+    .caixinha1 {
+        margin-left: 0px;
+        justify-content:flex-start ;
+    }
+
+    footer{
+        width: 768px;
+    }
+
+
+}
+
+@media (max-width:787px) and (min-width:400px){
+
+    
+    .container-mae{
+        width: 400px;
+    }
+
+    .caixinha1 {
+        margin-left: 0px;
+        justify-content:center ;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 23px;
+    }
+
+    footer{
+        width: 400px;
+    }
+
+    .iconeMedalha{
+        width: 150px;
+        height: 150px;
+        margin-left: 59px;
+    }
+
+    .doacoes{
+        padding-left: 41px;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .caixinha4{
+        padding-left: 40px;
+    }
+
+    .botoes {
+        text-align: center;
+    }
+
 }
