@@ -13,11 +13,10 @@ body{
     font-size: 30px;
 }
 
-.container1{
+.container1 {
     border-top: 2px solid #3B7302;
     width: 1150px;
-    background-image: linear-gradient(
-        to bottom, rgba(192, 252, 183, 0.61), white);
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
         padding: 25px;
 }
 
@@ -74,6 +73,10 @@ body{
 .contato1 p a:hover{
     border-bottom: 1px solid black;
     padding-bottom: 1px;
+}
+
+footer{
+    width: 1200px;
 }
 
 @media (max-width:1199px) and (min-width:768px) {
