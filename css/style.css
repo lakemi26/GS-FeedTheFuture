@@ -90,6 +90,16 @@ main{
     margin-left: 20px;
 }
 
+.icone-bot{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icone-chatbot{
+    width: 80px;
+    height: 80px;
+}
+
 .destaque{
     color:#3B7302;
 }
@@ -645,6 +655,7 @@ main{
         .texto_sobrenos{
             font-size: 20px;
             width: 380px;
+            height: 263px;
         }
 
         .contador{
