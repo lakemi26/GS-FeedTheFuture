@@ -1,0 +1,137 @@
+.container {
+    width: 1200px;
+    height: 100%;
+    padding: 20px;
+    padding-top: 0;
+  }
+
+  .titulo h1{
+    color: #3B7302;
+}
+main{
+    display: inline;
+}
+section{
+    margin-bottom: 20px;
+}
+.doacao{
+    height: 500px;
+    width: 100%;
+    background:  linear-gradient(180deg, rgba(192, 252, 183, 0.61)70%, white);
+}
+.formOng{
+    display: flex;
+}
+.cl_Imagem{
+    width: 400px;
+    height: 400px;
+}
+.div_img{
+    margin-top: 13%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+input[type="file"] {
+    display: none;
+} 
+
+.grid, .gridtextArea{
+    display: grid;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.gridtextArea{
+    margin-top: 0;
+    margin-left: 0%;
+
+}
+.flex{
+    display: flex;
+}
+textarea{
+    width: 670px;
+    height: 140px;
+    border: 1px solid #3B7302;
+    margin-left: 6%;
+}
+.desc{
+    margin-left: 5%;
+}
+.ipt{
+    width: 300px;
+    padding: 5px;
+}
+.btn_publicar{
+    padding: 4px;
+    color: #3B7302;
+    width: 80px;
+    font-size: 1em;
+    background-color: transparent;
+    border: .22px solid #3B7302;
+    margin-left: 82%;
+    margin-top: 20px;
+}
+.btn_publicar:hover{
+    text-decoration: dashed;
+    color: rgb(0, 0, 0);
+}
+#img_label{
+    text-decoration: none;
+    margin-left: 35%;
+    margin-right: auto;
+    font-size: 1em;
+    height: 55px;
+    cursor: pointer;
+}
+#img_label:hover{
+    text-decoration: underline;
+    color: #3B7302;
+}
+.cl_titleANDarrecadacao{
+    width: 800px;
+    height: 400px;
+}
+.cl_itenANDfinalarrecadacao{
+    width: 800px;
+    height: 200px;
+
+}
+
+
+.img_doacao{
+    margin-left: 40%;
+    width: 200px;
+    height: 200px;
+}
+.image_doacao{
+    width: 1200px;
+}
+
+.doador, .kl{
+    margin-left: 37%;
+    margin-top: 10px;
+}
+
+#kilos, #ipt_doador{
+    height: 20px;
+    width: 280px;
+}
+.registrar{
+    margin-top: 10px;
+    margin-left: 55%;
+    color: #3B7302;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 1em;
+    background-color: transparent;
+    border: .22px solid #3B7302;
+}
+label{
+    color: #3B7302;
+}

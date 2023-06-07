@@ -1,29 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem vindo</title>
+    <title>Bem vindo - Ong</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ong_page.css">
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logos/Logo_-_FeedTheFuture-removebg.png" alt="Logo" width="100" height="100">
-                </a>
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logos/Logo_-_FeedTheFuture-removebg.png" alt="Logo" width="100" height="100">
+                    </a>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="horta.html">Horta</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="ongs.html">ONGs</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <h1>ONG </h1>
             </div>
-            <ul class="menu-list">
-                <li><a href="horta.html">Horta</a></li>
-                <li><a href="noticias.html">Notícias</a></li>
-                <li><a href="ranking.html">Ranking</a></li>
-                <li><a href="ongs.html">ONGs</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="index.html">Sair</a></li>
-            </ul>
-        </nav>
-    </header>
+        </header>
+        <main>
+            <section>
+
+                <div class="doacao">
+                    <form action="" class="formOng">
+                        <div class="cl_Imagem">
+                            <div class="div_img">
+                            </div>
+                            <label for='btn_foto' id="img_label">Inserir imagem</label>
+
+                            <input type="file" name="" id="btn_foto" class="btn_foto">
+                        </div>
+                        <div class="cl_titleANDarrecadacao">
+                            <div class="cl_itenANDfinalarrecadacao">
+                                <div class="flex">
+                                    <div class="grid">
+                                        <label for="titulo">Titulo</label>
+                                        <input type="text" class="ipt" id="titulo" placeholder="Titulo">
+                                    </div>
+                                    <div class="grid">
+                                        <label for="dateI">Inicio da arrecadação</label>
+                                        <input type="date" class="ipt" id="dateI">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="grid">
+                                        <label for="itens">Itens foco de arrecadação</label>
+                                        <input list="itens" placeholder="Selecione" class="ipt" >
+                                        <datalist id="itens">
+                                            <option value="Arroz branco"></option>
+                                            <option value="Feijão preto"></option>
+                                            <option value="Macarrão"></option>
+                                            <option value="Óleo de cozinha"></option>
+                                            <option value="Sal"></option>
+
+                                        </datalist>
+                                    </div>
+                                    <div class="grid">
+                                        <label for="dataT">Termino da arrecadação</label>
+                                        <input type="date" class="ipt" id="dataT">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cl_textArea">
+                                <div class="gridtextArea">
+                                    <label class="desc" for="desc">Descrição</label>
+                                    <textarea  id="desc" cols="30" rows="10" placeholder="Descrição do projeto de arrecadação..."></textarea>
+                                </div>
+                            </div>
+                            <button class="btn_publicar">Publicar</button>
+                        </div>
+
+                    </form>
+                    <div>
+
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            
+            <section>
+                <div class="titulo">
+                    <h1>Registrar Doação</h1>
+                </div>
+                <div class="registrar_doacao">
+                    <form action="">
+                        <div class="image_doacao">
+                            <img class="img_doacao" src="img/Fotos/ong-doacao.png" alt="">
+                        </div>
+                        <div class="doador">
+                            <div>
+                                <label for="doador">Doador</label>
+                            </div>
+                            <input id="ipt_doador" list="doador">
+                            <datalist id="doador">
+                                <option value="552292 - Julia Nery"></option>
+                                <option value="98163 - Júlia Martins"></option>
+                                <option value="552389 -  Isabelli Heloiza"></option>
+                                <option value="550562 - Larissa Akemi"></option>
+                                <option value="94679 - Vinicius Becker Prediger"></option>
+
+                            </datalist>
+                        </div>
+                        <div class="kl">
+                            <div>
+                                <label for="kilos">Quilos de alimento doado</label>
+                            </div>
+                            <input type="text" id="kilos" place>
+                        </div>
+                            <button class="registrar">Registrar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="rodape">
+                <div class="contato">
+                    <div class="tituloContato">contato</div>
+                    <div class="end">
+                        <img class="icone_localizacao" src="img/Icones/icon - localizacao.png" alt="Icone localização">
+                        <div class="endereco">
+                            <p>AVENIDA LINS DE VASCONCELOS - 157</p>
+                        </div>
+                    </div>
+                    <div class="tel">
+                        <img class="icone_tel" src="img/Icones/icon - telefone.png" alt="Icone telefone">
+                        <div class="telefone">
+                            <p>(11) 91234-5678</p>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <img class="icone_email" src="img/Icones/icon  - email.png" alt="Icone email">
+                        <div class="e-mail">
+                            <p>Feedthefuture@GMAIL.COM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="tituloRedes">redes</div>
+                    <div class="icones_redes">
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon - twitter.png"
+                                alt="Icone Twitter"></a>
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon - facebook.png"
+                                alt="Icone Facebook"></a>
+                        <a href="#"><img class="icone_redes" src="img/Icones/icon- instagram.png"
+                                alt="Icone Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="desenvolvedores"><a href="desenvolvedores.html">Desenvolvedores</a></div>
+                <div class="copy">@copyright: ancient code</div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
