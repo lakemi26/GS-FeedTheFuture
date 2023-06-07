@@ -1,259 +1,175 @@
 body{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.container_cadastro_empresa{
-    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
-}
-
-.cadastro_empresas {
-    color: #3B7302;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 25px;
-    font-family: 'Julius Sans One';
-    font-size: 40px;
-    font-weight: lighter;
-    
+.container_form{
+    width: 1200px;
+    background-image: linear-gradient( to bottom, rgba(192, 252, 183, 0.61), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .icone_doacoes{
-    width: 80px;
-    height: 80px;
-    margin-top: -39px;
-    margin-left:458px;
+    width: 100px;
+    height: 100px;
 }
 
-.formulario_cadastro{
-    margin-top: -10px;
-    margin-bottom: 50px;
-    align-items: normal;
-
+.espaco_icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-form {
-    flex-direction: column;
-    left: 131px;
-    top: 383px;
-    height: 1px;
-  }
-
-.nome_empresa input[type="text"],
-.endereco_empresa input[type="text"],
-.cep_empresa input[type="number"],
-.numero_empresa input[type="number"],
-.complemento_empresa input[type="text"],
-.cnpj_empresa input[type="number"],
-.telefone_empresa input[type="tel"],
-.email_empresa input[type="email"], 
-.senha_empresa input[type="password"] {
-    width: 990px;
-    font-size: 25px;
-    border: 1px solid #3B7302;
-    font-family: 'Julius Sans One';
-}
-
-.nome_empresa input[type="text"]::placeholder,
-.endereco_empresa input[type="text"]::placeholder,
-.cep_empresa input[type="number"]::placeholder,
-.numero_empresa input[type="number"]::placeholder,
-.complemento_empresa input[type="text"]::placeholder,
-.cnpj_empresa input[type="number"]::placeholder,
-.telefone_empresa input[type="tel"]::placeholder,
-.email_empresa input[type="email"]::placeholder,
-.senha_empresa input[type="password"]::placeholder {
+.titulo_cadastro h1{
     color:#3B7302;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .icone_go{
     width: 80px;
     height: 80px;
-}
-
-.icone_go{
-    position: absolute;
-    width: 96px;
-    height: 82px;
-    left: 530px;
-    top: 500px;
-}
-
-.checkbox_termos{
-    position: absolute;
-    width: 480px;
-    height: 35px;
-    left: 172px;
-    top: 900px;
-}
-
-.checkbox_termos{
-    font-family: 'Julius Sans One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    color: #000000;
-}
-
-footer{
-    width:1200px;
-    margin-top: 800px;
-}
-
-@media (max-width:1199px) and (min-width:768px){
-
-    .cadastro_empresas {
-        color: #3B7302;
-        text-align: center;
-        margin-top: 8px;
-        margin-bottom: 25px;
-        font-family: 'Julius Sans One';
-        font-size: 30px;
-        font-weight: lighter;
-    }
-
-    .nome_empresa input[type="text"],
-    .endereco_empresa input[type="text"],
-    .cep_empresa input[type="number"],
-    .numero_empresa input[type="number"],
-    .complemento_empresa input[type="text"],
-    .cnpj_empresa input[type="number"],
-    .telefone_empresa input[type="tel"],
-    .email_empresa input[type="email"], 
-    .senha_empresa input[type="password"] {
-        width: 690px;
-        font-size: 25px;
-        border: 1px solid #3B7302;
-        font-family: 'Julius Sans One';
-    }
-        .icone_doacoes{
-            width: 80px;
-            height: 80px;
-            margin-top: -39px;
-            margin-left:312px;
-        }
-
-        .icone_go{
-            width: 80px;
-            height: 80px;
-        }
-
-        .icone_go{
-            width: 60px;
-            height: 60px;
-        }
-        
-        .icone_go{
-            position: absolute;
-            width: 96px;
-            height: 82px;
-            left: 300px;
-            top: 480px;
-        }
-        
-        .checkbox_termos{
-            position: absolute;
-            width: 480px;
-            height: 35px;
-            left: 40px;
-            top: 880px;
-        }
-        
-        .checkbox_termos{
-            font-family: 'Julius Sans One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 26px;
-            color: #000000;
-        }
-
-        footer{
-            width:768px;
-            margin-top: 800px;
-        }
-}
-
-@media (max-width:787px) and (min-width:400px){
-    .cadastro_empresas {
-        color: #3B7302;
-        text-align: center;
-        margin-top: 6px;
-        margin-bottom: 25px;
-        font-family: 'Julius Sans One';
-        font-size: 15px;
-        font-weight: lighter;
-}
-
-    .formulario_cadastro{
-        margin-top: -43px;
-        margin-bottom: 50px;
-        align-items: normal;
 
 }
 
+.espaco_icone_go{
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+}
 
-form {
-    flex-direction: column;
-    left: 125px;
-    top: 383px;
-    width: 377px;
-    height: 554px;
-    margin-bottom: 30px;
-  }
-
-.nome_empresa input[type="text"],
-.endereco_empresa input[type="text"],
-.cep_empresa input[type="number"],
-.numero_empresa input[type="number"],
-.complemento_empresa input[type="text"],
-.cnpj_empresa input[type="number"],
-.telefone_empresa input[type="tel"],
-.email_empresa input[type="email"], 
-.senha_empresa input[type="password"] {
-    width: 361px;
+.container_form input[type="text"],
+.container_form input[type="text"],
+.container_form input[type="number"],
+.container_form input[type="number"],
+.container_form input[type="text"],
+.container_form input[type="number"],
+.container_form input[type="tel"],
+.container_form input[type="email"], 
+.container_form input[type="password"] {
+    width: 900px;
+    height: 25px;
     font-size: 18px;
     border: 1px solid #3B7302;
     font-family: 'Julius Sans One';
 }
-    .icone_doacoes{
-        width: 50px;
-        height: 50px;
-        margin-top: -40px;
-        margin-left: 168px;
-        margin-bottom: 12px;
-    
+
+.container_form input[type="text"]::placeholder,
+.container_form input[type="text"]::placeholder,
+.container_form input[type="number"]::placeholder,
+.container_form input[type="number"]::placeholder,
+.container_form input[type="text"]::placeholder,
+.container_form input[type="number"]::placeholder,
+.container_form input[type="tel"]::placeholder,
+.container_form input[type="email"]::placeholder,
+.container_form input[type="password"]::placeholder {
+    color:#3B7302;
+}
+
+.checkbox_termos{
+    color: #3B7302;
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.checkbox_termos a{
+    color:#3B7302;
+}
+
+footer{
+    width: 1200px;
+}
+
+@media (max-width:1199px) and (min-width:768px) {
+    .container_form{
+        width: 768px;
     }
-    
-    .icone_go{
-        position: absolute;
-        width: 76px;
-        height: 66px;
-        left: 168px;
-        top: 395px;
+
+    .container_form input[type="text"],
+    .container_form input[type="text"],
+    .container_form input[type="number"],
+    .container_form input[type="number"],
+    .container_form input[type="text"],
+    .container_form input[type="number"],
+    .container_form input[type="tel"],
+    .container_form input[type="email"], 
+    .container_form input[type="password"] {
+        width: 700px;
     }
-    
-    .checkbox_termos{
-        position: absolute;
-        width: 480px;
-        height: 35px;
-        left: 55px;
-        top: 722px;
+
+    .checkbox_termos {
+        width:700px;
     }
-    
-    .checkbox_termos{
-        font-family: 'Julius Sans One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 26px;
-        color:#3B7302;
+
+    .espaco_icone_go {
+        width: 700px;
+    }
+
+    .copyright{
+        width: 768px;
     }
 
     footer{
-        width:400px;
-        margin-top: 100px;
+        margin-left: 427px;
     }
+}
+
+@media (max-width:787px) and (min-width:400px){
+    
+    .container_form{
+        width: 400px;
+    }
+
+    .container_form input[type="text"],
+    .container_form input[type="text"],
+    .container_form input[type="number"],
+    .container_form input[type="number"],
+    .container_form input[type="text"],
+    .container_form input[type="number"],
+    .container_form input[type="tel"],
+    .container_form input[type="email"], 
+    .container_form input[type="password"] {
+        width: 350px;
+    }
+    
+    .checkbox_termos{
+        font-size: 15px;
+        font-size: 13px;
+        align-items: center;
+    }
+    .checkbox_termos {
+        width:350px;
+    }
+    
+    .icone_go {
+        width: 60px;
+        height: 60px;
+    }
+
+    .espaco_icone_go {
+        width: 350px;
+    }
+
+    .copyright{
+        width: 400px;
+    }
+
+    footer{
+        margin-left: 785px;
+    }
+
+
 }
