@@ -1,12 +1,18 @@
 body{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container_cadastro_pessoa{
-    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+    width: 1200px;
+    background-image: linear-gradient( to bottom, rgba(192, 252, 183, 0.61), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
 .cadastro_pessoas {
     color:#3B7302;
     text-align: center;
@@ -18,26 +24,24 @@ body{
     
 }
 
+.espaco_icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .icone_doacao_alimento{
-   width: 70px;
-   margin-left: 460px;
-   margin-top: -39px;
+    width: 100px;
+    height: 100px;
+    margin-left: 572px;
 }
 
-.formulario_cadastro{
-    margin-top: -32px;
-    margin-bottom: 50px;
-    align-items: normal;
-
-}
-
-
-form {
+form{
+    display: flex;
     flex-direction: column;
-    left: 131px;
-    top: 383px;
-    height: 1px;
-  }
+    align-items: center;
+    justify-content: center;
+}
 
 .nome_pessoa input[type="text"],
 .endereco_pessoa input[type="text"],
@@ -48,8 +52,9 @@ form {
 .telefone_pessoa input[type="tel"],
 .email_pessoa input[type="email"], 
 .senha_pessoa input[type="password"] {
-    width: 990px;
-    font-size: 25px;
+    width: 900px;
+    height: 25px;
+    font-size: 18px;
     border: 1px solid #3B7302;
     font-family: 'Julius Sans One';
 }
@@ -66,89 +71,17 @@ form {
     color:#3B7302;
 }
 
-.icone_go{
-    width: 110px;
-    height: 110px;
-}
-
-.icone_go{
-    position: absolute;
-    width: 96px;
-    height: 82px;
-    left: 540px;
-    top: 460px;
-}
-
 .checkbox_termos{
-    position: absolute;
-    width: 480px;
-    height: 35px;
-    left: 172px;
-    top: 852px;
+    color: #3B7302;
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+
 }
 
-.checkbox_termos{
-    font-family: 'Julius Sans One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    color: #000000;
-}
-
-footer{
-    width:1200px;
-    margin-top: 769px;
-    min-width: 769px;
-    max-width: 1200px;
-}
-
-@media (max-width:1199px) and (min-width:768px) {
-
-.cadastro_pessoas {
+.checkbox_termos a{
     color:#3B7302;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 25px;
-    font-family: 'Julius Sans One';
-    font-size: 30px;
-    font-weight: lighter;
-    
-}
-
-.icone_doacao_alimento{
-   width: 50px;
-   margin-left: 330px;
-   margin-top: -39px;
-}
-
-.formulario_cadastro{
-    margin-top: -32px;
-    margin-bottom: 50px;
-    align-items: normal;
-
-}
-
-form {
-    flex-direction: column;
-    left: 131px;
-    top: 383px;
-    height: 1px;
-  }
-
-.nome_pessoa input[type="text"],
-.endereco_pessoa input[type="text"],
-.cep_pessoa input[type="number"],
-.numero_pessoa input[type="number"],
-.complemento_pessoa input[type="text"],
-.cnpj_pessoa input[type="number"],
-.telefone_pessoa input[type="tel"],
-.email_pessoa input[type="email"], 
-.senha_pessoa input[type="password"] {
-    width: 690px;
-    font-size: 25px;
-    border: 1px solid #3B7302;
-    font-family: 'Julius Sans One';
 }
 
 .icone_go{
@@ -156,76 +89,42 @@ form {
     height: 80px;
 }
 
-.checkbox_termos{
-    position: absolute;
-    width: 480px;
-    height: 35px;
-    left: 40px;
-    top: 810px;
-}
-
-.checkbox_termos{
-    font-family: 'Julius Sans One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 26px;
-    color: #000000;
-}
-
-.icone_go{
-    width: 60px;
-    height: 60px;
-}
-
 .icone_go{
     position: absolute;
     width: 96px;
     height: 82px;
-    left: 300px;
-    top: 415px;
+    margin-left: 467px;
+    margin-top: 0px;
 }
-
 footer{
-    width: 768px;
-    margin-top: 690px;
-    }
+    width: 1200px;
+    margin-top: 100px;
 }
 
-@media (max-width:787px) and (min-width:400px) {
+@media (max-width:1199px) and (min-width:768px) {
+
+    .container_form{
+        width: 768px;
+    }
+
+    .espaco_icone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
-    .cadastro_pessoas {
-        color: #3B7302;
-        text-align: center;
-        margin-top: 6px;
-        margin-bottom: 25px;
-        font-family: 'Julius Sans One';
-        font-size: 25px;
-        font-weight: lighter;
-        }
-
     .icone_doacao_alimento{
-        width: 40px;
-        height: 40px;
-        margin-top: -55px;
-        margin-left: 168px;
-        margin-bottom: 12px;
-        }
-
-    .formulario_cadastro{
-        margin-top: -43px;
-        margin-bottom: 50px;
-        align-items: normal;
-        }   
-
-    form {  
+        width: 80px;
+        height: 80px;
+        margin-left: 585px;
+    }
+    
+    form{
+        display: flex;
         flex-direction: column;
-        left: 125px;
-        top: 383px;
-        width: 377px;
-        height: 554px;
-        margin-bottom: 30px;
-        }
+        align-items: center;
+        justify-content: center;
+    }
     
     .nome_pessoa input[type="text"],
     .endereco_pessoa input[type="text"],
@@ -236,41 +135,115 @@ footer{
     .telefone_pessoa input[type="tel"],
     .email_pessoa input[type="email"], 
     .senha_pessoa input[type="password"] {
-        width: 361px;
-        font-size: 18px;
-        border: 1px solid #3B7302;
-        font-family: 'Julius Sans One';
-        }   
+        width: 700px;
+    }
     
-    .checkbox_termos{
-        position: absolute;
-        width: 480px;
-        height: 35px;
-        margin-left: -120px;
-        margin-top: -138px;
+    .nome_pessoa input[type="text"]::placeholder,
+    .endereco_pessoa input[type="text"]::placeholder,
+    .cep_pessoa input[type="number"]::placeholder,
+    .numero_pessoa input[type="number"]::placeholder,
+    .complemento_pessoa input[type="text"]::placeholder,
+    .cnpj_pessoa input[type="number"]::placeholder,
+    .telefone_pessoa input[type="tel"]::placeholder,
+    .email_pessoa input[type="email"]::placeholder,
+    .senha_pessoa input[type="password"]::placeholder {
+        color:#3B7302;
     }
     
     .checkbox_termos{
-        font-family: 'Julius Sans One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 26px;
+        color: #3B7302;
+        width:700px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5px;
+    
+    }
+    
+    .checkbox_termos a{
         color:#3B7302;
+    }
+    
+    .espaco_icone_go {
+        width: 700px;
     }
 
     .icone_go{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .icone_go{
         position: absolute;
-        width: 50px;
-        height: 50px;
-        margin-left: -360px;
-        margin-top: -90px;
+        width: 96px;
+        height: 82px;
+        margin-left: 418px;
+        margin-top: 0px;
+    }
+
+    .copyright{
+        width: 768px;
     }
 
     footer{
-        width: 400px;
-        margin-top: 30px;
-        min-width: 400px;
-        max-width: 787px;
+        margin-left: 427px;
     }
 }
+
+@media (max-width:787px) and (min-width:400px) {
+    
+    .container_form{
+        width: 400px;
+    }
+    
+    .nome_pessoa input[type="text"],
+    .endereco_pessoa input[type="text"],
+    .cep_pessoa input[type="number"],
+    .numero_pessoa input[type="number"],
+    .complemento_pessoa input[type="text"],
+    .cnpj_pessoa input[type="number"],
+    .telefone_pessoa input[type="tel"],
+    .email_pessoa input[type="email"], 
+    .senha_pessoa input[type="password"] {
+        width: 350px;
+        }   
+    
+        .checkbox_termos{
+            font-size: 15px;
+            font-size: 13px;
+            align-items: center;
+        }
+        .checkbox_termos {
+            width:350px;
+        }
+        
+        .icone_go {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .espaco_icone_go {
+            width: 350px;
+        }
+    
+        .copyright{
+            width: 400px;
+        }
+    
+        .icone_go{
+            width: 80px;
+            height: 80px;
+        }
+        
+        .icone_go{
+            position: absolute;
+            width: 96px;
+            height: 82px;
+            margin-left: 349px;
+            margin-top: 9px;
+        }
+        footer{
+            margin-left: 785px;
+        }
+    
+    
+    }
