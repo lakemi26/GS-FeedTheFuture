@@ -37,6 +37,7 @@ body{
     width: 400px;
     height: 300px;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
 .texto1 h2{
@@ -55,7 +56,7 @@ body{
 }
 
 .contato1{
-    margin-left: 180px;
+    margin-left: 152px;
     width: 1000px;
     margin-bottom: 25px;
 }
@@ -79,11 +80,21 @@ footer{
     width: 1200px;
 }
 
+.texto{
+    padding:15px;
+    width: 534px;
+}
+
+.texto h2{
+    color:#3B7302;
+}
+
+
+
 @media (max-width:1199px) and (min-width:768px) {
 
     .container1{
         width: 700px;
-        padding: 34px;
     }
 
     .ong1{
@@ -95,6 +106,42 @@ footer{
         width: 700px;
     }
 
+    .texto{
+        margin-top: 10px;
+    }
+
+    .texto p{
+        font-size: 15px;
+    }
+
+    .texto h2{
+        font-size: 20px;
+    }
+    
+    .ong1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem1{
+        align-self: center;
+    }
+
+    .ong{
+        text-align: center;
+    }
+
+    .copyright{
+        width: 768px;
+    }
+
+    .contato1{
+        margin-left: 65px;
+    }
+
+    .contato1 p{
+        font-size: 15px;
+    }
 
 }
 
@@ -127,6 +174,18 @@ footer{
 
     .ong_list{
         margin-left: 0px;
+    }
+
+    .imagem1{
+        width: 375px;
+    }
+
+    .texto{
+        width: 370px;
+    }
+    
+    .contato1{
+        width: 380px;
     }
 
 
