@@ -183,9 +183,13 @@ footer{
     .texto{
         width: 370px;
     }
-    
+
     .contato1{
         width: 380px;
+    }
+
+    .copyright{
+        width: 400px;
     }
 
 
