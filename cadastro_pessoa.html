@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro Pessoa Física</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro_pessoaf.css">
 </head>
 <body>
     <header>
@@ -24,5 +25,90 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="container_cadastro_pessoa"></div>
+            <section>
+            <br>
+                <h1 class="cadastro_pessoas">Cadastro Pessoa Física</h1>
+            <br>
+            <img class="icone_doacao_alimento" src="img/Icones/icone - doações.png" alt="Ícone doação de alimentos">
+                <form class="formulario_cadastro" method="post">
+                    <br><br>
+                    <div class="nome_pessoa">
+                        <input type="text" name="nomeempresa" id="nomeempresa" required placeholder="Nome da Empresa*">
+                    </div>
+                    <br><br>
+                    <div class="cnpj_pessoa" > 
+                        <input type="number" name="cnpj" id="cnpj" required placeholder="CNPJ*">
+                    </div>
+                    <br><br>
+                    <div class="cep_pessoa">
+                        <input type="number" name="cep" id="icep" required placeholder="CEP*">
+                    </div>
+                    <br><br>
+                    <div class="endereco_pessoa" >
+                        <input type="text" name="endereco" id="iendereco" required placeholder="Endereço*">
+                    </div>
+                    <br><br>
+                    <div class="numero_pessoa">
+                        <input type="number" name="numero" id="inumero" required placeholder="Número*">
+                    </div>
+                    <br><br>
+                    <div class="complemento_pessoa">
+                        <input type="text" name="complemento" id="icomplemento" required placeholder="Complemento*">
+                    </div>
+                    <br><br>
+                    <div class="telefone_pessoa">
+                        <input type="tel" name="telefone" id="itelefone" required placeholder="Telefone*">
+                    </div>
+                    <br><br>
+                    <div class="email_pessoa">
+                        <input type="email" name="email" id="iemail" required placeholder="Email*">
+                    </div>
+                    <br><br>
+                    <div class="senha_pessoa">
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha*">
+                    </div>     
+                    <div class="checkbox_termos">
+                        <input type="checkbox" name="termo_uso" id="itermo_uso"> Declaro que concordo com
+                        <a href="login.html">termos de uso </a> 
+                    </div>                               
+                </form>
+                <div>
+                <a class="icone_go" href="login.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="contato">
+                <div class="tituloContato">contato</div>
+                <div class="end">
+                        <img class="icone_localizacao" src="img/Icones/icon - localizacao.png" alt="Icone localização">
+                    <div class="endereco"><p>AVENIDA LINS DE VASCONCELOS - 157</p></div>
+                </div>
+                <div class="tel">
+                    <img class="icone_tel" src="img/Icones/icon - telefone.png" alt="Icone telefone">
+                    <div class="telefone"><p>(11) 91234-5678</p></div>
+                </div>
+                <div class="email">
+                    <img class="icone_email" src="img/Icones/icon  - email.png" alt="Icone email">
+                    <div class="e-mail"><p>Feedthefuture@GMAIL.COM</p></div>
+                </div>
+            </div>
+            <div class="redes">
+                <div class="tituloRedes">redes</div>
+                <div class="icones_redes">
+                    <a href="#"><img class="icone_redes" src="img/Icones/icon - twitter.png" alt="Icone Twitter"></a>
+                    <a href="#"><img class="icone_redes" src="img/Icones/icon - facebook.png" alt="Icone Facebook"></a>
+                    <a href="#"><img class="icone_redes" src="img/Icones/icon- instagram.png" alt="Icone Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="desenvolvedores"><a href="desenvolvedores.html">Desenvolvedores</a></div>
+            <div class="copy">@copyright: ancient code</div>
+        </div>
+    </footer> 
 </body>
 </html>

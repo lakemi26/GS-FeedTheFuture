@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Empresa</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro_empresa.css">
 </head>
 <body>
     <header>
@@ -28,9 +29,9 @@
         <div class="container_cadastro_empresa"></div>
             <section>
             <br>
-            <h1 class="cadastro_empresas">Cadastro Empresa</h1>
+                <h1 class="cadastro_empresas">Cadastro Empresa</h1>
             <br>
-            <img class="icone_doacao_alimento" src="img/Icones/doacao-de-alimentos.png" alt="Ícone doação de alimentos">
+            <img class="icone_doacoes" src="img/Icones/doacao-de-alimentos.png" alt="Ícone doação de alimentos">
                 <form class="formulario_cadastro" method="post">
                     <br><br>
                     <div class="nome_empresa">
@@ -41,36 +42,40 @@
                         <input type="number" name="cnpj" id="cnpj" required placeholder="CNPJ*">
                     </div>
                     <br><br>
-                    <div class="cep_ong">
+                    <div class="cep_empresa">
                         <input type="number" name="cep" id="icep" required placeholder="CEP*">
                     </div>
                     <br><br>
-                    <div class="endereco_ong" >
+                    <div class="endereco_empresa" >
                         <input type="text" name="endereco" id="iendereco" required placeholder="Endereço*">
                     </div>
                     <br><br>
-                    <div class="numero_ong">
+                    <div class="numero_empresa">
                         <input type="number" name="numero" id="inumero" required placeholder="Número*">
                     </div>
                     <br><br>
-                    <div class="complemento_ong">
+                    <div class="complemento_empresa">
                         <input type="text" name="complemento" id="icomplemento" required placeholder="Complemento*">
                     </div>
                     <br><br>
-                    <div class="telefone_ong">
+                    <div class="telefone_empresa">
                         <input type="tel" name="telefone" id="itelefone" required placeholder="Telefone*">
                     </div>
                     <br><br>
-                    <div class="email_ong">
+                    <div class="email_empresa">
                         <input type="email" name="email" id="iemail" required placeholder="Email*">
                     </div>
                     <br><br>
-                    <div senha_ong>
+                    <div class="senha_empresa">
                         <input type="password" name="senha" id="isenha" required placeholder="Senha*">
-                    </div>                                    
+                    </div>     
+                    <div class="checkbox_termos">
+                        <input type="checkbox" name="termo_uso" id="itermo_uso"> Declaro que concordo com
+                        <a href="login.html">termos de uso </a> 
+                    </div>                               
                 </form>
                 <div>
-                <a class="icode_go" href="login.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+                <a class="icone_go" href="login.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
                 </div>
             </section>
     </main>

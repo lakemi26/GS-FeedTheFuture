@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+.container_cadastro_pessoa{
+    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+}
+
+.cadastro_pessoas {
+    color: #3B7302;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-family: 'Julius Sans One';
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+
+.icone_doacao_alimento{
+    width: 80px;
+    height: 80px;
+    margin-top: -37px;
+    margin-left:458px;
+}
+
+.formulario_cadastro{
+    margin-top: -32px;
+    margin-bottom: 50px;
+    align-items: normal;
+
+}
+
+
+form {
+    flex-direction: column;
+    left: 131px;
+    top: 383px;
+    height: 1px;
+  }
+
+.nome_pessoa input[type="text"],
+.endereco_pessoa input[type="text"],
+.cep_pessoa input[type="number"],
+.numero_pessoa input[type="number"],
+.complemento_pessoa input[type="text"],
+.cnpj_pessoa input[type="number"],
+.telefone_pessoa input[type="tel"],
+.email_pessoa input[type="email"], 
+.senha_pessoa input[type="password"] {
+    width: 990px;
+    font-size: 25px;
+    border: 1px solid #3B7302;
+    font-family: 'Julius Sans One';
+}
+
+.nome_pessoa input[type="text"]::placeholder,
+.endereco_pessoa input[type="text"]::placeholder,
+.cep_pessoa input[type="number"]::placeholder,
+.numero_pessoa input[type="number"]::placeholder,
+.complemento_pessoa input[type="text"]::placeholder,
+.cnpj_pessoa input[type="number"]::placeholder,
+.telefone_pessoa input[type="tel"]::placeholder,
+.email_pessoa input[type="email"]::placeholder,
+.senha_pessoa input[type="password"]::placeholder {
+    color:#3B7302;
+}
+
+.icone_go{
+    width: 80px;
+    height: 80px;
+}
+
+.icone_go{
+    position: absolute;
+    width: 96px;
+    height: 82px;
+    left: 537px;
+    top: 490px;
+}
+
+.checkbox_termos{
+    position: absolute;
+    width: 480px;
+    height: 35px;
+    left: 172px;
+    top: 852px;
+}
+
+.checkbox_termos{
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+}
+
+footer{
+    width:1200px;
+    margin-top: 812px;
+}
