@@ -58,6 +58,7 @@ textarea{
     height: 140px;
     border: 1px solid #3B7302;
     margin-left: 6%;
+    resize: none;
 }
 .desc{
     margin-left: 5%;
@@ -134,4 +135,130 @@ textarea{
 }
 label{
     color: #3B7302;
+}
+
+@media  (max-width:1199px) and (min-width:768px) {
+   
+    .container{
+        margin-left: -102px;
+        width: 768px;
+        height: 100%;
+        padding: 7px;
+        padding-top: 0;
+    }
+    
+    .btn_publicar{    
+        margin-left: 36%;
+    }
+    .flex{
+        display: unset;
+    }
+    .gridtextArea{
+        margin-top: 71px;
+    }
+    textarea{
+        width: 311px;
+    }
+    .cl_Imagem{
+        margin-left: 82px;
+    }
+    .doacao{
+        width: 100%;
+    }
+    .doador, .kl{
+        margin-left: 33%;
+    }
+    .copyright{
+        width: 768px;
+    }
+    .registrar_doacao{
+        width: 768px;
+    }
+    .img_doacao{
+        margin-left: 38%;
+    }
+    .image_doacao{
+        width: 768px;
+    }
+    main{
+        min-width: 768px;
+        max-width: 1199px;    
+    }
+    hr{
+        min-width: 768px;
+        max-width: 1199px;
+        /* width: 100%; */
+    }
+    #img_label {
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 915px) {
+    .container{
+        margin-left: 15%;
+    }
+}
+@media (max-width:787px) and (min-width:400px){
+    *{
+        width: 0 auto;
+    }
+    .gridtextArea{
+        margin-top: 71px;
+    }
+    .btn_publicar{    
+        margin-left: 36%;
+    }
+    textarea{
+        width: 311px;
+    }
+    #img_label {
+        margin-left: 34%;
+    }
+    
+    .container{
+        width: 400px;
+        margin-left: 90%;
+    }
+    .formOng {
+        display: unset;
+    }
+    .doacao{
+        height: 1000px;
+    }
+    main{
+        min-width: 400px;
+        max-width: 787px;    
+    }
+    .img_doacao {
+        margin-left: 13%;
+    }
+    .doador, .kl {
+        margin-left: 13%;
+    }
+    hr{
+        min-width: 400px;
+        max-width: 787px;
+        /* width: 100%; */
+    }
+    .registrar{
+        margin-left: 68%;
+    }
+    #img_label {
+        margin-left: 34%;
+    }
+    .cl_Imagem {
+        margin-left: 4px;
+        padding-top: 10px;
+    }
+    .flex{
+        display: unset;
+    }
+    .image_doacao {
+        width: 400px;
+    }
+    .img_doacao {
+        margin-left: 24%;
+    }
+
 }
