@@ -4,11 +4,10 @@ body{
 }
 
 .container_login{
-    width: 1200px;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(192, 252, 183, 0.61), white, rgba(192, 252, 183, 0.61));
+    width:1200px;
+    background-image: linear-gradient( to bottom, rgba(192, 252, 183, 0.61), white);
+    padding: 25px;
 }
-
 .login{
     color: #3B7302;
     text-align: center;
