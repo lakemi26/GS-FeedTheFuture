@@ -57,7 +57,8 @@ form{
 .container_form input[type="number"],
 .container_form input[type="tel"],
 .container_form input[type="email"], 
-.container_form input[type="password"] {
+.container_form input[type="password"],
+.container_form input[type="url"] {
     width: 900px;
     height: 25px;
     font-size: 18px;
@@ -73,7 +74,8 @@ form{
 .container_form input[type="number"]::placeholder,
 .container_form input[type="tel"]::placeholder,
 .container_form input[type="email"]::placeholder,
-.container_form input[type="password"]::placeholder {
+.container_form input[type="password"]::placeholder,
+.container_form input[type="url"]::placeholder {
     color:#3B7302;
 }
 
@@ -83,6 +85,25 @@ form{
     display: flex;
     justify-content: flex-start;
 
+}
+
+.titulo-envio{
+    color:#3B7302;
+}
+
+.envio-fotos{
+    color: #3B7302; 
+    display: flex;
+    margin-right: 511px;
+}
+
+.escolha-arquivos{
+    margin-top: 79px;
+}
+
+.icone_anexararquivo{
+    width: 100px;
+    height: 100px;
 }
 
 .checkbox_termos a{
@@ -106,7 +127,8 @@ footer{
     .container_form input[type="number"],
     .container_form input[type="tel"],
     .container_form input[type="email"], 
-    .container_form input[type="password"] {
+    .container_form input[type="password"],
+    .container_form input[type="url"] {
         width: 700px;
     }
 
@@ -116,6 +138,10 @@ footer{
 
     .espaco_icone_go {
         width: 700px;
+    }
+
+    .envio-fotos{
+        margin-right: 317px;
     }
 
     .copyright{
@@ -141,7 +167,8 @@ footer{
     .container_form input[type="number"],
     .container_form input[type="tel"],
     .container_form input[type="email"], 
-    .container_form input[type="password"] {
+    .container_form input[type="password"],
+    .container_form input[type="url"] {
         width: 350px;
     }
     
@@ -161,6 +188,16 @@ footer{
 
     .espaco_icone_go {
         width: 350px;
+    }
+
+    .envio-fotos{
+        display: flex;
+        margin-right: 64px;
+        flex-direction: column;
+    }
+
+    .escolha-arquivos{
+        margin-top: 10px;
     }
 
     .copyright{

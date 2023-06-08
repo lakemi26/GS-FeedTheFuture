@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Pessoa Física</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cadastro_pessoaf.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
     <header>
@@ -26,57 +26,45 @@
         </nav>
     </header>
     <section>
-        <div class="container_cadastro_pessoa"> </div>
-                <div> <h1 class="cadastro_pessoas">Cadastro Pessoa </h1> 
+        <div class="container_form">
+            <div class="titulo_cadastro">
+            <h1>Cadastro Pessoa Física</h1>
             </div>
-            <div class="espaco_icone"></div>
-            <img class="icone_doacao_alimento" src="img/Icones/icone - doações.png" alt="Ícone doação de alimentos">
-                <form class="formulario_cadastro" method="post">
+        
+            <div class="espaco_icone">
+                <img class="icone_doacoes" src="img/Icones/icone - doações.png" alt="Ícone doação de alimentos">
+            </div>    
+            <form class="formulario_cadastro" method="post">
                 <br>
-                    <div class="nome_pessoa">
-                        <input type="text" name="nomeempresa" id="nomeempresa" required placeholder="Nome da Empresa*">
-                    </div>
+                    <input type="text" name="nomepessoa" id="nomepessoa" required placeholder="Nome completo*">
                 <br>
-                    <div class="cnpj_pessoa" > 
-                        <input type="number" name="cnpj" id="cnpj" required placeholder="CNPJ*">
-                    </div>
+                    <input type="number" name="cpf" id="cpf" required placeholder="cpf*">
                 <br>
-                    <div class="cep_pessoa">
-                        <input type="number" name="cep" id="icep" required placeholder="CEP*">
-                    </div>
+                    <input type="number" name="cep" id="icep" required placeholder="CEP*">
                 <br>
-                    <div class="endereco_pessoa" >
-                        <input type="text" name="endereco" id="iendereco" required placeholder="Endereço*">
-                    </div>
+                    <input type="text" name="endereco" id="iendereco" required placeholder="Endereço*">
                 <br>
-                    <div class="numero_pessoa">
-                        <input type="number" name="numero" id="inumero" required placeholder="Número*">
-                    </div>
+                    <input type="number" name="numero" id="inumero" required placeholder="Número*">
                 <br>
-                    <div class="complemento_pessoa">
-                        <input type="text" name="complemento" id="icomplemento" required placeholder="Complemento*">
-                    </div>
+                    <input type="text" name="complemento" id="icomplemento" required placeholder="Complemento*">
                 <br>
-                    <div class="telefone_pessoa">
-                        <input type="tel" name="telefone" id="itelefone" required placeholder="Telefone*">
-                    </div>
+                    <input type="tel" name="telefone" id="itelefone" required placeholder="Telefone*">
                 <br>
-                    <div class="email_pessoa">
-                        <input type="email" name="email" id="iemail" required placeholder="Email*">
-                    </div>
+                    <input type="email" name="email" id="iemail" required placeholder="Email*">
                 <br>
-                    <div class="senha_pessoa">
-                        <input type="password" name="senha" id="isenha" required placeholder="Senha*">
-                    </div>     
-                    <div class="checkbox_termos">
-                        <input type="checkbox" name="termo_uso" id="itermo_uso"> Declaro que concordo com os
-                        <a href="login.html">termos de uso </a> 
-                    </div>                               
-                </form>
-                <div classe="espaco_icone_go">
-                <a class="icone_go" href="login.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
-                </div>
-            </section>
+                    <input type="password" name="senha" id="isenha" required placeholder="Senha*"> 
+                <br>  
+                <div class="checkbox_termos">
+                    <input type="checkbox" name="termo_uso" id="itermo_uso"> Declaro que concordo com 
+                    <a href="login.html"> termos de uso </a> 
+                </div>                               
+            </form>
+            <div class="espaco_icone_go">
+                <a href="login.html"><img class="icone_go" src="img/Icones/icone - ir.png" alt="Icone botão de seguir em frente"></a>
+            </div>
+        </div>
+    </div>
+    </section>
     <footer>
         <div class="rodape">
             <div class="contato">
